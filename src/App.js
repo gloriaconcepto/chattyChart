@@ -1,10 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+
+import './App.scss';
 
 function App() {
   return (
     <div className="App">
-      Main Chart App
+      Main Chart App i
       
     </div>
   );
