@@ -1,0 +1,36 @@
+
+@import '../../Styling/mixins';
+.side-bar-wrapper{
+    .app-title{
+        font-family: 'Qwitcher Grypen', cursive;
+        font-style: normal;
+       font-weight: 400;
+       font-size: 4.571rem;
+       line-height: 121px;
+       color: $text-brown-color;
+    }
+   .justified-center{
+    display: flex;
+    justify-content: center;
+   }
+   .menus-title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 21px;
+    color: $text-brown-color;
+   }
+   .css-10hburv-MuiTypography-root {
+    margin: 0;
+    font-family:'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: 5000;
+    font-size: 1.2rem;
+    line-height: 21px;
+  // color: $text-brown-color;
+} 
+}
+
+
+
+  

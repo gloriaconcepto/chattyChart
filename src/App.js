@@ -1,10 +1,14 @@
 
-import './App.scss';
-
+import React from 'react';
+import './app.scss';
+import AppRoutes from './Routes/index';
+const LayoutPage= React.lazy(()=> import("./Layout/index")) 
 function App() {
   return (
-    <div className="App">
-      Main Chart App i
+    <div className='App'>
+       <LayoutPage>
+       <AppRoutes/>
+       </LayoutPage>
       
     </div>
   );
