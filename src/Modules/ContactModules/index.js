@@ -17,13 +17,13 @@ const ContactsComponents = memo((props) => {
   useEffect(() => {
     //check if the length equal the max length
     if (contacts.length === maxLength) {
-        console.log('hey');
+      
         setStopLoading(false);
         setHasMore(false);
       }
   },[contacts]);
   const addMoreContacts = () => {
-    console.log('my dad gone crazy');
+
    // setStopLoading(true);
     let mockData = {
       id: 6,
