@@ -1,0 +1,11 @@
+@import "../../Styling/mixins";
+.contacts-wrapper {
+  .small-email-title {
+    font-family:'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 4.571rem;
+    line-height: 21px;
+    color: $text-light-brown-color;
+  }
+}

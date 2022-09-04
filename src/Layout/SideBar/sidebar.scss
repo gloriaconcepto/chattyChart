@@ -7,7 +7,7 @@
        font-weight: 400;
        font-size: 4.571rem;
        line-height: 121px;
-       color: $text-brown-color;
+       color:$text-black-color;
     }
    .justified-center{
     display: flex;
@@ -16,16 +16,28 @@
    .menus-title{
     font-style: normal;
     font-weight: 500;
-    font-size: 1.2rem;
+    font-size: 1.143rem;
     line-height: 21px;
-    color: $text-brown-color;
+    color: $text-black-color;
+   }
+   .contact-header{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.143rem;
+    line-height: 21px;
+    margin-top: 16px;
+    color: $text-light-brown-color;
+   }
+   .contacts-box{
+    max-height: 200px;
+    overflow: auto;
    }
    .css-10hburv-MuiTypography-root {
     margin: 0;
-    font-family:'IBM Plex Sans', sans-serif;
+    font-family:$font-family-basics-style;
     font-style: normal;
     font-weight: 5000;
-    font-size: 1.2rem;
+    font-size: 1.143rem;
     line-height: 21px;
   // color: $text-brown-color;
 } 
