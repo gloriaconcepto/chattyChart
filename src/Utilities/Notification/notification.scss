@@ -1,0 +1,15 @@
+@import '../../Styling/mixins';
+.notification-wrapper{
+
+    padding-top: 26px;
+    margin-left: 58px;
+
+    .notification-icon{
+        fill:$notification-black;
+        font-size: 40px;
+    }
+    .css-to4x1n-MuiBadge-badge{
+        right:5px !important;
+        top:3px !important;
+    }
+}

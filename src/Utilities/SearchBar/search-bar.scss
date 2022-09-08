@@ -1,0 +1,42 @@
+@import '../../Styling/mixins';
+.search-wrapper{
+    background:$color-white;
+    border-radius: 30px;
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    height: 56px;
+    margin-top: 24px;
+    padding-top: 0.8rem;
+    padding-left: 22px;
+    padding-right: 22px;
+    display: flex;
+    .search-input{
+        width: 100%;
+        height: 2rem;
+        border-top-style: hidden;
+        border-right-style: hidden;
+        border-left-style: hidden;
+        border-bottom-style:hidden;
+        font-size:1.143rem;
+        font-weight: 400;
+        line-height: 23px;
+        outline: none;
+        font-family: $font-family-basics-style;
+        color:$search-color;
+        // margin-left: 25px;
+     
+    }
+    ::placeholder{
+        font-size:1.143rem;
+        font-weight: 400;
+        line-height: 23px;
+        color:$search-color;
+        font-family: $font-family-basics-style;
+    }
+    .search-icon{
+        // position:absolute;
+        padding-top: 6px;
+        fill:$search-color;
+    }
+}

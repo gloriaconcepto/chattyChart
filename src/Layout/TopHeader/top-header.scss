@@ -1,0 +1,23 @@
+@import "../../Styling/mixins";
+.top-header-wrapper{
+   padding-top: 18px;
+   margin-left: 50px;
+   display: flex;
+   .vertical-line{
+    background-color:$divider-color;
+    height: 38px;
+    width: 2px;
+    margin-top: 25px;
+   }
+   .avatar-position{
+    margin-left: 12px;
+   }
+   .small-email-title {
+    font-family:'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height:16px;
+    color: $text-light-brown-color;
+  }
+}

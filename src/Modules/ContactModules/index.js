@@ -77,7 +77,7 @@ const ContactsComponents = memo((props) => {
             </ListItem>
           </List>
         ))}
-        {console.log({stopLoading})}
+
        {stopLoading&& <ContactsSkeletons/>}
       </InfiniteScroll>
     </React.Fragment>
