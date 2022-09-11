@@ -1,0 +1,6 @@
+[   
+    { "id": 1,"name":"Designer’s Forum" ,"description": "Building a community of world-class designers", "totalMembers":20,"createdBy":"mmk boss","images":[]},
+    { "id": 2, "name":"NFT Spaceship","description": "Meet the Team, artists and collections for updates, announcements, and more", "totalMembers":30,"createdBy":"tony boss","images":[] },
+    { "id": 3,"name":"Designer’s Forum" ,"description": "Building a community of world-class designers", "totalMembers":20,"createdBy":"mmk boss","images":[]},
+    { "id": 4, "name":"NFT Spaceship","description": "Meet the Team, artists and collections for updates, announcements, and more", "totalMembers":30,"createdBy":"tony boss","images":[] } 
+]

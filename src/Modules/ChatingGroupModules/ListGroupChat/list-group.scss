@@ -1,0 +1,59 @@
+@import "../../../Styling/mixins";
+.list-group-forum-wrapper{
+    display: flex;
+    max-width: 50rem;
+    overflow-x: auto;
+    -ms-overflow-style: none;     /* Internet Explorer 10+ */
+    scrollbar-width: none;
+    .horizontal-line {
+        //background-color: $divider-color;
+        width: 100%;
+        margin-top:0px;
+        margin-bottom:0px;
+    }
+    .css-1qr0z6b-MuiPaper-root-MuiCard-root{
+        overflow:visible;
+        width: 400px;
+        margin-right: 18px;
+    }
+         
+   
+   
+    .css-1qvr50w-MuiTypography-root {
+        font-family:$font-family-basics-style;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.429rem;
+        line-height: 26px;
+        color:$text-black-color;
+    }
+    .css-nrdprl-MuiTypography-root {
+        margin-top: 8px;
+        font-family:$font-family-basics-style;
+        font-weight: 500;
+        font-size: 1rem;
+        line-height: 18px;
+       
+        color: $light-light-brown-color;
+        display: block;
+    }
+    .css-1qr0z6b-MuiPaper-root-MuiCard-root{
+        border: 1px solid #EAEAEA;
+        box-shadow: 0px 16px 37px rgba(188, 188, 188, 0.1);
+        border-radius: 15px;
+    }
+    .css-46bh2p-MuiCardContent-root{
+        padding-top: 0px;
+        // padding-right: 63px;
+    }
+    .css-sxh3gq-MuiAvatar-root-MuiAvatarGroup-avatar{
+        background-color: $red-color;
+    }
+    .avatar-container{
+        display:flex;
+        margin-top: 8px;
+    }
+}
+.list-group-forum-wrapper::-webkit-scrollbar{
+    display: none !important;
+}
